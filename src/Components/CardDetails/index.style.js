@@ -1,0 +1,91 @@
+import { makeStyles } from "@material-ui/core";
+
+export default makeStyles(() => ({
+  container: {
+    display: "flex",
+    flexDirection: "row",
+  },
+  cardDetails: {
+    position: "fixed",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "center",
+    left: "35%",
+    top: "40%",
+    width: 500,
+    zIndex: 10,
+    background: "#ffffff",
+    borderRadius: 10,
+    padding: 30,
+  },
+  details: {
+    paddingLeft: 40,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
+  },
+  subHeading: {
+    fontWeight: "bold",
+    textAlign: "left",
+  },
+  cardContent: {
+    paddingTop: 20,
+    fontWeight: "normal",
+    fontSize: 12,
+  },
+  card: {
+    width: 170,
+    height: 200,
+    margin: 20,
+    padding: 10,
+    cursor: "pointer",
+    transition: ".5s ease",
+  },
+  cardImage: {
+    boxShadow: "0 4px 14px rgb(0 0 0 / 10%)",
+    borderRadius: 5,
+    width: 200,
+    height: 200,
+  },
+  cardContainer: {
+    display: "flex",
+    flexWrap: "wrap",
+    width: "90%",
+    alignContent: "flex-start",
+  },
+  cardTitle: {
+    fontSize: 12,
+    textAlign: "left",
+    width: 170,
+    overflow: "hidden",
+    color: "#1E1E1E",
+    fontWeight: "bold",
+  },
+  searchBox: {
+    alignSelf: "center",
+  },
+  closeBtn: {
+    position: "absolute",
+    right: 5,
+    top: 8,
+    border: "none",
+    background: "#fff",
+    cursor: "pointer",
+  },
+  noResultContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    width: "100%",
+  },
+  actionButton: {
+    border: "none",
+    background: "#2F888C",
+    padding: 10,
+    color: "#ffffff",
+    borderRadius: 5,
+    textDecoration: "none",
+    marginTop: 12,
+  },
+}));
