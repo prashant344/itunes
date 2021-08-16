@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/itunes/static/css/main.f213cf1e.chunk.css",
+    "main.js": "/itunes/static/js/main.9a20ad70.chunk.js",
+    "main.js.map": "/itunes/static/js/main.9a20ad70.chunk.js.map",
+    "runtime-main.js": "/itunes/static/js/runtime-main.feea2430.js",
+    "runtime-main.js.map": "/itunes/static/js/runtime-main.feea2430.js.map",
+    "static/js/2.df077bba.chunk.js": "/itunes/static/js/2.df077bba.chunk.js",
+    "static/js/2.df077bba.chunk.js.map": "/itunes/static/js/2.df077bba.chunk.js.map",
+    "static/js/3.2a60cc3b.chunk.js": "/itunes/static/js/3.2a60cc3b.chunk.js",
+    "static/js/3.2a60cc3b.chunk.js.map": "/itunes/static/js/3.2a60cc3b.chunk.js.map",
+    "index.html": "/itunes/index.html",
+    "static/css/main.f213cf1e.chunk.css.map": "/itunes/static/css/main.f213cf1e.chunk.css.map",
+    "static/js/2.df077bba.chunk.js.LICENSE.txt": "/itunes/static/js/2.df077bba.chunk.js.LICENSE.txt",
+    "static/media/background.9cfc0783.jpg": "/itunes/static/media/background.9cfc0783.jpg",
+    "static/media/logo.6ce24c58.svg": "/itunes/static/media/logo.6ce24c58.svg",
+    "static/media/noResultFound.64ebb83e.png": "/itunes/static/media/noResultFound.64ebb83e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.feea2430.js",
+    "static/js/2.df077bba.chunk.js",
+    "static/css/main.f213cf1e.chunk.css",
+    "static/js/main.9a20ad70.chunk.js"
+  ]
+}
