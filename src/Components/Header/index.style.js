@@ -67,6 +67,13 @@ export default makeStyles(() => ({
       cursor: "pointer",
     },
   },
+  link: {
+    display: "flex",
+    justifyContent: "flex-start",
+    width: "100%",
+    textDecoration: "none",
+    color: "black",
+  },
   centerText: {
     margin: "0 auto",
   },

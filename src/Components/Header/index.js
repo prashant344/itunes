@@ -59,13 +59,13 @@ const Header = () => {
           <div className={classes.list}>
             {searchResult.map((result) => (
               <div className={classes.listItem}>
-                <a href={result.link.attributes.href} alt={"h"}>
+                <a href={result.link.attributes.href} className={classes.link}>
                   <img
                     src={result["im:image"][0].label}
                     className={classes.cardImage}
                   />
+                  <div className={classes.cardTitle}>{result.title.label}</div>
                 </a>
-                <div className={classes.cardTitle}>{result.title.label}</div>
               </div>
             ))}
           </div>
